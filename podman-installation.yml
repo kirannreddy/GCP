@@ -14,7 +14,7 @@
       dest: /home
   - name: Re-create a redis container
     containers.podman.podman_container:
-      name: sarthak
+      name: kiran
       image: httpd
       state: started
       detach: true
