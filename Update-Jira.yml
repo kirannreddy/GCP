@@ -1,5 +1,6 @@
 ---
 - name: Updating Jira Issue
+  hosts: all
   tasks: 
   - name: Transition Issue to Done
     uri:
