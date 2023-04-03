@@ -1,7 +1,5 @@
 ---
 - name: Updating Jira Issue
-  hosts: localhost
-  become: true
   tasks: 
   - name: Transition Issue to Done
     uri:
