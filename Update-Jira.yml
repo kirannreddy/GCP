@@ -1,0 +1,10 @@
+---
+hosts: localhost
+taks: 
+  - name: post to consul
+    uri:
+      url: https://automation.atlassian.com/pro/hooks/fad90c0e95b2c53dbe3b12b0015878ccd87b8a58?issue=VI-2
+      method: POST
+      body_format: json
+      headers:
+        Content-Type: "application/json"
